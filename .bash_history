@@ -79,3 +79,28 @@ ll
 compile test package install
 # compile test package install
 mvn clean install
+ll
+vi pull.sh
+vi push.sh
+ll
+git init
+git add .
+git commit -m "first commit to push source files to github"
+git config --global user.email "varun.varun189@gmail.com"
+git config --global user.name "varungali"
+git commit -m "first commit to push source files to github"
+git remote add origin https://github.com/varungali/webproject.git
+git push origin master
+vi run.sh
+ll
+cd
+exit
+cd /opt/
+ll
+cd webapp/
+ll
+exit
+vi push.sh
+vi pull.sh
+ll
+exit
